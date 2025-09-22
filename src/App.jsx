@@ -49,6 +49,12 @@ export default function App() {
 
   return (
     <>
+        <div id='resume'>
+          <a href="/wings-of-fire.pdf" download="Shivam_resume.pdf">
+            <button>Download my resume</button>
+          </a>
+        </div>
+
         {isDataPresent && <div id="main">
         <h1>Currency App</h1>
 
